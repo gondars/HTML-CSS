@@ -1,0 +1,57 @@
+div,h1, body
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: url(../images/PaintDotNetNESTRUVA.png);
+    background-size: cover;
+    font-family: calibri,sans-serif;
+    color: #F9ECC8;
+
+}
+    h1
+    {
+        font-size: 40px;
+        color: #F3BE60;
+        padding-left: 50px;
+        padding-top: 45px;
+    }
+    ol
+    {
+        color: #F3BE60;
+        font-size: 30px;
+        list-style: square;
+        padding-left: 100px;
+        padding-right: 100px;
+        white-space: nowrap;
+    }
+    ul
+    {
+        list-style: none;
+        font-size: 25px;
+        border: 2px #46433C solid;
+        background-color: #20201E;
+        margin: 20px;
+
+
+    }
+        ol span
+        {
+            color: white;
+
+        }
+        b
+        {
+            color: #F3CD60;
+        }
+        ul span
+        {
+            color: #F9ECC8
+        }
+
+
+
+
+

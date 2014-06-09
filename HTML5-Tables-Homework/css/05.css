@@ -1,0 +1,86 @@
+table, td, tr, p
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+    thead
+    {
+        font-size: 40px;
+    }
+    table table
+    {
+
+        text-align: center;
+
+
+
+    }
+    tr
+    {
+        height: 20%;
+    }
+    td
+    {
+        padding: 5%;
+        margin: 5%;
+    }
+        .top-left
+        {
+            vertical-align: top;
+            text-align: left;
+            padding-top: 0;
+            padding-left: 0;
+        }
+        .top-right
+        {
+            vertical-align: top;
+            text-align: right;
+            padding-top: 0;
+            padding-right: 0;
+        }
+        .top-center
+        {
+            vertical-align: top;
+            text-align: center;
+            padding-top: 0;
+        }
+        .bot-left
+        {
+            vertical-align: bottom;
+            text-align: left;
+            padding-left: 0;
+            padding-bottom: 0;
+        }
+        .bot-right
+        {
+            vertical-align: bottom;
+            text-align: right;
+            padding-bottom: 0;
+            padding-right: 4px;
+        }
+        .bot-center
+        {
+            vertical-align: bottom;
+            text-align: center;
+            padding-bottom: 0;
+
+        }
+        .mid-left
+        {
+            padding-left: 0;
+        }
+        .mid-right
+        {
+            padding-right: 0;
+            font-size: 30px;
+        }
+        .tableheight
+        {
+            height: 40px;
+        }
+

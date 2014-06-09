@@ -1,0 +1,45 @@
+
+table
+{
+    text-align: center;
+
+
+}
+thead
+{
+    height: 80px;
+}
+
+table tr td table td tr
+{
+    height: 10%;
+}
+button
+{
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    color: blue;
+}
+    .height
+    {
+        height: 80px;
+    }
+    .percent25
+    {
+        width: 25%;
+    }
+    .percent50
+    {
+        width: 50%;
+    }
+    .percent75
+    {
+        width: 75%;
+    }
+    .tableheight
+    {
+        height: 40px;
+    }
+
