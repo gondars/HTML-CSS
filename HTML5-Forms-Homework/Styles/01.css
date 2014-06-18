@@ -1,0 +1,123 @@
+body
+{
+    background-color: #EEEEEE;
+    margin: 0;
+    padding: 0;
+}
+h2
+{
+    color: #234465;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+p
+{
+    color: #9D9D9D;
+    padding-left: 9px;
+}
+span
+{
+    display: block;
+    font-size: 18px;
+    color: #646464;
+    font-weight: bolder;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+strong
+{
+    color: #234465;
+    font-weight: bold;
+}
+    .resizedTextBox
+    {
+        width: 250px;
+        height: 25px;
+        font-size: 12px;
+        padding-left: 5px;
+        padding-right: 7px;
+    }
+    .floatLeft
+    {
+        float: left;
+    }
+    .divTwo
+    {
+        float:left;
+        background-color: #234465;
+        margin-left: 15px;
+        width:290px;
+    }
+    .spanTwo
+    {
+        display: inline-block;
+        margin-top: 6px;
+        color: white;
+        font-weight: normal;
+        margin-left: 10px;
+        padding-top: 7px;
+    }
+    .checkboxSpan
+    {
+        display: inline-block;
+        color: white;
+        font-size: 11px;
+        vertical-align: top;
+        margin-left: 10px;
+        float: left;
+        width: 120px;
+    }
+    .loginSpan
+    {
+        display: inline-block;
+        float: right;
+
+    }
+    .resizedTextBox2
+    {
+        width: 250px;
+        height: 25px;
+        font-size: 12px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    .registerButton
+    {
+        width: 125px;
+        height: 35px;
+        margin-left: 53%;
+        border: 2px #234465 solid;
+        background-color: #EEEEEE;
+        color: #234465;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .checkBox
+    {
+        width: 17px;
+        height: 17px;
+    }
+    .labelText
+    {
+        font-size: 11px;
+        vertical-align: top;
+    }
+    .loginButton
+    {
+        width: 100px;
+        height: 35px;
+        margin-left: 59%;
+        margin-top: -30px;
+        border: 2px #DD8F0F solid;
+        background-color: #234465;
+        color: white;
+        position: inherit;
+        display:inline-block;
+    }
+    .forgotPassword
+    {
+        margin-left: 66%;
+        font-size: 10px;
+        text-decoration: underline;
+        color: white;
+    }

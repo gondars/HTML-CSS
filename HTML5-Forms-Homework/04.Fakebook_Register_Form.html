@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles/04.css">
+    <title></title>
+</head>
+<body>
+<form>
+    <h1>fakebook<b>®</b></h1>
+    <h3>Registration</h3>
+    <h5>It is safe and it will always be!</h5>
+    <div class="leftdiv">
+        <fieldset>
+            <legend>
+               None-Important Information
+            </legend>
+            <div>
+                <span>
+                    <input type="text" name="custFName" placeholder="First Name">
+                </span>
+                <span>
+                    <input type="text" name="custLName" placeholder="Last Name">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <input type="email" name="yourEMail" placeholder="Your Email">
+                </span>
+                <span>
+                    <input type="number" name="yourPhone" placeholder="Phone Number">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <input type="password" name="yourPw" placeholder="Your Password">
+                </span>
+                <span>
+                    <input type="text" name="yourWeb" placeholder="Your Website">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label for="Birthday" class="blockonly">Birthday:
+                        <input type="datetime-local" id="Birthday" class="blockonly">
+                    </label>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <input type="radio" name="sex" value="1"> Female
+                    <input type="radio" name="sex" value="2"> Male
+                    <input type="radio" name="sex" value="3"> Other
+                </span>
+            </div>
+        </fieldset>
+        <div class="clearformDiv">
+            <input type="reset" name="resetForm" class="resetForm" value="Clear Form">
+        </div>
+    </div>
+    <div class="rightdiv">
+        <fieldset>
+            <legend>
+                Important Information *required
+            </legend>
+            <div>
+                <span>
+                    <select id="countries" class="countries" required="required"></select>
+                </span>
+                <span>
+                    <input type="text" placeholder="Village" class="countries" required="required">
+                </span>
+                <span>
+                    <input type="text" placeholder="District" class="countries" required="required">
+                </span>
+            </div>
+            <div>
+                <span>
+                    <input type="text" placeholder="Street" class="countries" required="required">
+                </span>
+                <span>
+                    <input type="number" placeholder="Nr" class="mini" required="required">
+                </span>
+                <span>
+                    <input type="number" placeholder="Floor" class="mini" required="required">
+                </span>
+                <span>
+                    <input type="number" placeholder="Ap Nr" class="mini" required="required">
+                </span>
+            </div>
+            <div>
+                <span>
+                     <label for="doorColor" class="blockonly">Door Color
+                     </label>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <input type="color" id="doorColor" class="colorPicker" required="required">
+                </span>
+                <span>
+                    <input type="text" placeholder="Water meter No" class="countries" required="required">
+                </span>
+                <span>
+                    <select class="countries" required="required">
+                        <option hidden="">
+                            Aunt Panties' Size
+                        </option>
+                        <option>
+                            1
+                        </option>
+                        <option>
+                            2
+                        </option>
+                    </select>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <label for="personalInfo" class="blockonly"> More Personal Information
+                        <textarea class="blockonly" placeholder="Give us more information!!" id="personalInfo"
+                                  required="required"></textarea>
+                    </label>
+                </span>
+            </div>
+            <div class="registerDiv">
+                <input type="submit" name="register" class="registerForm" value="Register">
+            </div>
+        </fieldset>
+    </div>
+</form>
+<script type="text/javascript" src="Scripts/02.js"></script>
+<script type="text/javascript">countriesDropdown("countries")</script>
+</body>
+</html>

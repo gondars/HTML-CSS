@@ -1,0 +1,80 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+.leftDiv
+{
+    width: 600px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+.rightDiv
+{
+    width: 200px;
+    border: 1px #E3F3FC solid;
+    display: block;
+    float: left;
+}
+h1
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.labels
+{
+    display: block;
+    text-align: center;
+
+}
+.ranges
+{
+    width: 200px;
+}
+.min
+{
+    font-size: 10px;
+    float: left;
+
+}
+.max
+{
+    font-size: 10px;
+    float: right;
+    
+}
+.blocks
+{
+    display: block;
+    width: 198px;
+    height: 170px;
+    border: 1px #E3F3FC solid;
+    border-radius: 10px;
+    font-size: 13px;
+    float: left;
+}
+.boldText
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+img
+{
+    margin-left: 20px;
+    width: 150px;
+}
+.price
+{
+    background-color: #2C425A;
+    border: 5px #2C425A solid;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-left: 110px;
+    margin-top: 10px;
+    position: inherit;
+
+}

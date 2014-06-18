@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Styles/02.css">
+    <title></title>
+</head>
+<body>
+<form>
+<h1>
+    FLIGHT ORDER
+</h1>
+    <div>
+        <span>
+            <label for="from">From</label>
+            <select id="countriesFrom" xml:id="from" class="selectLocation"></select>
+        </span>
+        <span class="paddingTop">
+
+            <label for="departureDate" class="paddingTop">Departure Date</label>
+            <input type="date" value="09/10/2011" id="departureDate" class="selectLocation">
+        </span>
+        <span>
+            <label for="returnDate">Return Date</label>
+            <input type="date" value="09/10/2011" id="returnDate" class="selectLocation">
+        </span>
+        <div>
+            <span class="floatLeft">
+                <label for="12+">12+</label>
+                <input type="number" id="12+" class="numberBox">
+                </span>
+            <span class="floatRight">
+                <label for="2-12">2-12</label>
+                <input type="number" id="2-12" class="numberBox">
+                </span>
+            <span class="floatRight">
+                <label for="0-2">0-2</label>
+                <input type="number" id="0-2" class="numberBox">
+             </span>
+        </div>
+    </div>
+    <div>
+        <span>
+            <label for="to">To</label>
+            <select id="countriesTo" xml:id="to" class="selectLocation"></select>
+            <label for="preferDirects" class="floatLeft">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Prefer directs</label>
+            <input type="checkbox" id="preferDirects" >
+        </span>
+        <span>
+            <label for="dtimeInterval">Time Interval</label>
+            <input type="time" id="dtimeInterval" class="timeIntervalsLeft">
+            <input type="time" class="timeIntervalsRight" >
+        </span>
+        <span>
+            <label>Time Interval</label>
+            <input type="time" class="timeIntervalsLeft">
+            <input type="time" class="timeIntervalsRight">
+        </span>
+        <span class="floatLeft">
+            <label for="chooseClass">Choose class</label>
+            <select id="chooseClass" class="selectLocation">
+                <option>Economy</option>
+                <option>Business</option>
+            </select>
+        </span>
+    </div>
+    <div class="bottomDiv">
+        <span>
+            <input type="button" value="Search" class="elButton">
+        </span>
+    </div>
+</form>
+<script type="text/javascript" src="Scripts/02.js"></script>
+<script type="text/javascript">countriesDropdown("countriesFrom")</script>
+<script type="text/javascript">countriesDropdown("countriesTo")</script>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body
+{
+    background-color: #FFC0CB;
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+    font-size: 13px;
+
+}
+h1
+{
+    text-decoration: underline;
+    font-style: italic;
+    padding-left: 8%;
+}
+input, label
+{
+    display: block;
+}
+div
+{
+    display: block;
+    float: left;
+    padding-left: 3px;
+    position: relative;
+
+}
+    .selectLocation
+    {
+        width: 175px;
+    }
+    .paddingTop
+    {
+        margin-top: 19px;
+    }
+    .numberBox
+    {
+        width: 50px;
+        height: 15px;
+    }
+    .floatLeft
+    {
+        float: left;
+        padding-right: 5px;
+
+    }
+    .floatRight
+    {
+        float: right;
+        padding-right: 5px;
+    }
+    .timeIntervalsLeft
+    {
+        width: 82px;
+        float: left;
+
+    }
+    .timeIntervalsRight
+    {
+        width: 82px;
+
+    }
+    .bottomDiv
+    {
+        position: absolute;
+        margin-top: 188px;
+        margin-left: 186px ;
+        width: 175px;
+    }
+    .elButton
+    {
+        width: 175px;
+        font-size: 15px;
+    }
