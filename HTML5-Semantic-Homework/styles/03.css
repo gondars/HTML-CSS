@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Arial',serif;
+}
+div{
+    margin-top: 100px;
+}
+iframe{
+    width: 346px;
+    height: 246px;
+}
+    header h1{
+        color: yellow;
+        text-align: center;
+        font-size: 70px;
+    }
+        .iframeDiv{
+            margin-left: 250px;
+            width: 350px;
+            height: 250px;
+            border: 2px yellow solid;
+            display: block;
+            float: left;
+            margin-right: 50px;
+        }
+        .textDiv{
+            width: 500px;
+            height: 250px;
+            display: block;
+            float: left;
+        }
+            .textDiv a{
+                height: 50px;
+                width: 500px;
+                font-size: 40px;
+                font-style: italic;
+                color: white;
+                text-decoration: none;
+            }

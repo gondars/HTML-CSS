@@ -1,0 +1,77 @@
+body{
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Tahoma',sans-serif;
+}
+table{
+    width: 80%;
+    height: 60%;
+    margin-top: 10%;
+    margin-left: 10%;
+    border: 3px solid;
+    border-radius: 20px;
+    border-spacing: 0;
+}
+td{
+    height: 3rem;
+    border: 1px black solid;
+}
+table .firstRow{
+    background-color: rgb(245,200,66);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 25px;
+}
+table .secondRow{
+    background-color: white;
+}
+table .thirdRow{
+    background-color: grey;
+}
+table .alignLeft{
+    text-align: left;
+}
+table .firstTopCell{
+    border-top-left-radius: 20px;
+    text-align: right;
+}
+table .lastTopCell{
+    border-top-right-radius: 20px;
+}
+table .firstBotCell{
+    border-bottom-left-radius: 20px;
+    text-align: right;
+}
+table .lastBotCell{
+    border-bottom-right-radius: 20px;
+}
+table .alignRight{
+    text-align: right;
+}
+table .numberInput{
+    width: 25px;
+    height: 25px;
+}table .numberInputDisabled{
+     width: 25px;
+     height: 25px;
+     color: red;
+ }
+table .redBet{
+    width: 40px;
+    height: 40px;
+    border: 1px red solid;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+table .greenBet{
+    width: 40px;
+    height: 40px;
+    border: 1px green solid;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+}

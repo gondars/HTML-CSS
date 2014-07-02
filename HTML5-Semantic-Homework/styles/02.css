@@ -1,0 +1,81 @@
+body{
+    background-color: pink;
+    font-family: 'Arial',serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+    .leftDiv{
+        margin-left: 250px;
+        margin-top: 100px;
+        display: block;
+        float: left;
+        width: 200px;
+        height: 220px;
+    }
+
+    .centerDiv{
+        display: block;
+        float: left;
+        width: 250px;
+        height: 220px;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    .rightDiv{
+        display: block;
+        float: left;
+        width: 400px;
+        height: 220px;
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+    .opennedAudio{
+        height: 60px;
+        width: 250px;
+        background-color: black;
+    }
+    .otherAudios{
+        height: 40px;
+        width: 250px;
+    }
+    .openaudioSpan{
+        background-color: black;
+        height: 100px;
+        width: 250px;
+        display: block;
+    }
+    .otheraudioSpan1{
+        height: 40px;
+        width: 250px;
+        display: block;
+        position: relative;
+        top: -6px;
+    }
+    .otheraudioSpan2{
+        height: 40px;
+        width: 250px;
+        display: block;
+        position: relative;
+        top: -12px;
+    }
+    .otheraudioSpan3{
+        height: 40px;
+        width: 250px;
+        display: block;
+        position: relative;
+        top: -18px;
+    }
+        .rightDiv embed{
+            width: 400px;
+            height: 201px;
+        }
+        .leftDiv img{
+            width: 200px;
+            height: 150px;
+        }
+        .leftDiv progress{
+            width: 160px;
+        }
